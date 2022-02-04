@@ -1,0 +1,12 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This is Artgocode's resume",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/app.css --watch",
+    "minify": "npx tailwindcss -i ./src/input.css -o ./css/app.css -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
